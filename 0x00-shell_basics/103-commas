@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1apv | sed ':a;N;$!ba;s/\n/, /g' | sed 's/\([^\/]\)$/\1\//' | tr -d '\n'
+ls -m -a | tr '\n' ','
